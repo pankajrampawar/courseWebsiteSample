@@ -1,0 +1,23 @@
+body {
+ margin: 0;
+ padding: 0; 
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: '4px';
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo:hover {
+  text-decoration: underline;
+}
+
+.sign-card {
+  background-image: "./images/learning.png";
+}
